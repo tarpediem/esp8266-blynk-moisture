@@ -24,7 +24,7 @@ WidgetBridge bridge1(V1);
 
 BLYNK_CONNECTED() {
   // Place the AuthToken of the second hardware here
-  bridge1.setAuthToken("8bcc18fe51894120b9d303884bcb58f6"); 
+  bridge1.setAuthToken("your-auth-token"); 
 }
 
 void loop()
